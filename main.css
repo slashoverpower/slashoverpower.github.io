@@ -38,7 +38,7 @@ html {
     z-index: 2;
     position: relative;
     text-align: center;
-    margin-top: 50%;
+    margin-top: -60%;
 }
 
 a:link, a:visited {
