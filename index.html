@@ -8,7 +8,7 @@
 
 <body>
     <div class="container">
-        <video id="bg" autoplay="true" loop muted>
+        <video id="bg" autoplay="true" loop muted playsinline>
             <source src="bgloop.mp4" type="video/mp4">
             <source src="bgloop.mp4" type="video/mp4">
         </video>
@@ -21,12 +21,5 @@
             </a>
         </div>
     </div>
-    <!-- START: Mobile Autoplay Video -->
-<script>
-var mobilevideo = document.getElementsByTagName("video")[0];
-mobilevideo.setAttribute("playsinline", "");
-mobilevideo.setAttribute("muted", "");
-</script>
-<!-- END: Mobile Autoplay Video -->
 </body>
 </html>
