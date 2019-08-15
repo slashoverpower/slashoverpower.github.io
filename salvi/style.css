@@ -1,0 +1,56 @@
+body {
+    background-image: url(bg.png);
+    font-family: helvetica;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+    display: block;
+}
+
+.nav {
+    font-size: 140%;
+    display: block;
+}
+
+ul {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: LEFt;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer {
+    width: 410px;
+    height: 50px;
+    position: fixed;
+    z-index: 500;
+    top: 30%;
+    left: -105px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    font-size: 16px;
+    line-height: 18px;
+}
